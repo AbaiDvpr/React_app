@@ -12,6 +12,7 @@ function Contact() {
     const check1 = ()=>{
         if(showStatus==true){
             dispatch(owiru())
+            // Аслан мырза карап жиберыныз
         }
         else{
             dispatch(korsetu())
