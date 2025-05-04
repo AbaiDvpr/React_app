@@ -16,6 +16,7 @@ function Contact() {
         }
         else{
             dispatch(korsetu())
+            // салем алем
         }
     }
     return (
