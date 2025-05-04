@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   tyldy tandanyz
+
+    <button onclick="changeLang('kk')">
+        kk 
+    </button>
+    <button onclick="changeLang('ru')">
+        ru 
+    </button>
+
+    <script>
+
+
+
+
+
+        function changeLang(til){
+            localStorage.setItem("lang",til)
+        }
+        console.log("sss")
+
+        // localStorage.setItem("lang",'ru')
+
+        console.log(localStorage.getItem("lang"))
+    </script>
+
+
+</body>
+</html>

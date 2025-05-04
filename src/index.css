@@ -1,0 +1,184 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  width: 100%;
+  background-color: palegreen;
+  height: 100px;
+}
+
+
+.kaspi-container{
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  gap: 80px;
+}
+
+
+.kaspi-filter{
+  background-color: darkgoldenrod;
+  /* min-height: 80vh; */
+
+  border: 1px solid black;
+}
+
+.kaspi-products{
+  background-color: orange;
+  /* min-height: 80vh; */
+
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.kaspi-products-item{
+  background-color: azure;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #dedede;
+  border-radius: 8px;
+  justify-content: center;
+}
+.kaspi_img_product{
+  height: 120px;
+}
+footer{
+  width: 100%;
+  background-color: rgb(200, 240, 23);
+  height: 100px;
+}
+
+
+main{
+  width: 100%;
+  min-height: 600px;
+  background-color: pink;
+}
+
+
+
+.count{
+  color: red;
+}
+
+.count.active10{
+  color: green;
+}
+
+.Block_1{
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.Block_1.blue{
+  background-color: blue;
+}
+
+.Block_1.red{
+  background-color: red;
+}
+
+.Block_1.black{
+  background-color: black;
+}
+
+
+ 
+.quiz-container {
+  background: white;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+.question {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+}
+.option {
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #fff;
+}
+.option:hover {
+  background: #ddd;
+}
+
+.option.active{
+  background-color: rgb(50, 246, 50);
+}
+
+
+.check-btn{
+  width: auto;
+  background-color: palegoldenrod;
+  height: 44px;
+  border-radius: 10px;
+}
+
+
+
+.btn_page{
+  width: 80px;
+  height: 80px;
+  background-color: darkgray;
+
+}
+
+.btn_page.active_btn{
+  background-color: #fff;
+}
+
+
+.film-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.film-card {
+  width: 200px;
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  overflow: hidden;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.film-card:hover {
+  transform: scale(1.05);
+}
+
+.film-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.film-card h3 {
+  margin: 10px;
+  font-size: 18px;
+}
+
+.film-card p {
+  margin: 0 10px 10px;
+  color: #aaa;
+}
